@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skeleton - Free Bulma template</title>
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/amlak.css">
+</head>
+
+<body>
+    <nav class="navbar is-white has-shadow is-spaced topNav">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img src="images/bulma-logo.png" width="112" height="28">
+                </a>
+                <div class="navbar-burger burger" id="topNavExpander">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="topNav" class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="addhome.html"><strong>ثبت آگهی</strong></a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-white" href="search.html">جست و جو</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-white" href="contact.html">تقاضای ملک</a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-white" href="contact.html">مشاورین املاک</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="field is-grouped">
+                            <a class="button">
+                                <span class="icon">
+                                    <img class="svg" src="svg/user-plus.svg" />
+                                </span>
+                                <span>
+                                    ثبت نام
+                                </span>
+                            </a>
+                            <a class="button is-info is-outlined">
+                                <span class="icon">
+                                    <img class="svg" src="svg/log-in.svg" />
+                                </span>
+                                <span>ورود</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="content">
+            <div class="box">
+                <div class="box has-background-white-ter" id="add-home-step-0">
+                    <div class="columns is-marginless">
+                        <div class="column is-one-fifth is-desktop right-adv-type">
+                            <div class="field">
+                                <small> نوع آگهی را انتخاب کنید </small>
+                            </div>
+                            <div class="field">
+                                <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                    <input type="radio" name="advtype" checked value="simple" />
+                                    <div class="state">
+                                        <img class="svg" src="svg/check-circle.svg" />
+                                        <label>ساده</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                    <input type="radio" name="advtype" value="bronze" />
+                                    <div class="state">
+                                        <img class="svg" src="svg/check-circle.svg" />
+                                        <label>نقره ای</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                    <input type="radio" name="advtype" value="gold" />
+                                    <div class="state">
+                                        <img class="svg" src="svg/check-circle.svg" />
+                                        <label>طلایی</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div id="Message" class="notification h-100 is-warning">
+                                    ثبت در تلگرام
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="add-home-step-1" class="box has-background-white-ter">
+                    <div class="columns is-multiline is-marginless">
+
+
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نوع معامله</label>
+                                <div class="select is-danger w-100">
+                                    <select class="w-100">
+                                        <option>نوع معامله</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نوع کاربری</label>
+                                <div class="select is-danger w-100">
+                                    <select class="w-100">
+                                        <option>نوع کاربری</option>
+                                        <option>اداری</option>
+                                        <option>مسکونی</option>
+                                        <option>تجاری</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نوع ملک</label>
+                                <div class="select is-danger w-100">
+                                    <select class="w-100">
+                                        <option>نوع ملک</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نوع سند</label>
+                                <div class="select is-danger w-100">
+                                    <select class="w-100">
+                                        <option>نوع سند</option>
+                                        <option>مسکونی</option>
+                                        <option>اداری</option>
+                                        <option>تجاری</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div id="add-home-step-2" class="box has-background-white-ter">
+                    <div class="columns is-marginless">
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">قیمت کل (تومان)</label>
+                                <input class="input currency-decimal" id="Price1" type="text">
+                                <p class="help">مبلغ به حروف : <span></span></p>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="field">
+                                <label class="label">حداکثر قیمت معاوضه (تومان)</label>
+                                <input class="input currency-decimal" id="Price2" type="text">
+                                <p class="help">مبلغ به حروف : <span></span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns is-marginless is-multiline">
+                        <div class="column is-12">
+                            <div class="field">
+                                <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                    <input type="checkbox" id="vam" name="vam" value="false" />
+                                    <div class="state">
+                                        <img class="svg" src="svg/check-circle.svg" />
+                                        <label>وام</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-paddingless is-12 d-none" id="vambox">
+                            <div class="columns is-multiline is-marginless">
+
+                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                    <div class="field">
+                                        <label class="label">مبلغ وام</label>
+                                        <input class="input currency-decimal" type="text">
+                                    </div>
+                                </div>
+                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                    <div class="field">
+                                        <label class="label">درصد وام</label>
+                                        <input class="input prefixed-mask" type="text">
+                                    </div>
+                                </div>
+                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                    <div class="field">
+                                        <label class="label">مبلغ باقیمانده وام</label>
+                                        <input class="input currency-decimal" type="text">
+                                    </div>
+                                </div>
+                                <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                                    <div class="field">
+                                        <label class="label">مبلغ هر قسط وام</label>
+                                        <input class="input currency-decimal" type="text">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="add-home-step-4" class="box has-background-white-ter">
+                    <div class="columns is-multiline is-marginless">
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">متراژ</label>
+                                <input class="input currency-decimal is-danger" id="metraj" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">تعداد اتاق</label>
+                                <input class="input currency-decimal" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">سال ساخت</label>
+                                <input class="input currency-decimal" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">طبقه</label>
+                                <input class="input currency-decimal" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="add-home-step-5" class="box has-background-white-ter">
+                    <div class="box">
+                        <a href="#content-1" class="accordion-toggle">مشخصات اصلی</a>
+                        <div class="accordion-content" id="content-1">
+                            <div class="boxed-check-container">
+
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <a href="#content-2" class="accordion-toggle">امکانات ویژه</a>
+                        <div class="accordion-content" id="content-2">
+                            <div class="boxed-check-container">
+
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <a href="#content-3" class="accordion-toggle">امکانات سرمایشی و گرمایشی</a>
+                        <div class="accordion-content" id="content-3">
+                            <div class="boxed-check-container">
+
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <a href="#content-4" class="accordion-toggle">پوشش دیوار</a>
+                        <div class="accordion-content" id="content-4">
+                            <div class="boxed-check-container">
+
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <a href="#content-5" class="accordion-toggle">نور گیری</a>
+                        <div class="accordion-content" id="content-5">
+                            <div class="boxed-check-container">
+
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="boxed-check-item">
+                                    <div class="field">
+                                        <div class="pretty p-svg p-plain p-bigger p-smooth">
+                                            <input type="checkbox" name="msd" value="1" />
+                                            <div class="state">
+                                                <img class="svg" src="svg/check-circle.svg" />
+                                                <label>ساده</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="add-home-step-6" class="box has-background-white-ter">
+                    <div class="columns is-multiline is-marginless">
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">کابینت</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>کابینت</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نما</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>نما</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">نوع ساخت</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>نوع ساخت</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">اسکلت</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>اسکلت</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">دید و منظر</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>دید و منظر</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label">کفپوش</label>
+                                <div class="select w-100">
+                                    <select class="w-100">
+                                        <option>کفپوش</option>
+                                        <option>With options</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="add-home-step-7" class="box has-background-white-ter">
+                    <div class="columns is-multiline is-marginless">
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">نحوه بازدید از ملک</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">هزینه شارژ</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">ارتفاع سقف ملک</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">عرض زیربنا</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">تعداد کل طبقات</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">واحد ملک</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">تعداد واحدهای هر طبقه</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">تعداد کل واحدها</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">تعداد سرویس بهداشتی ایرانی</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">تعداد سرویس بهداشتی فرنگی</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">طبقه</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">طول زیربنا</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        <div class="column is-3-desktop is-6-tablet is-12-mobile">
+                            <div class="field">
+                                <label class="label is-small">مساحت زیربنا</label>
+                                <input class="input" type="text">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer has-background-dark">
+        <div class="container">
+            <div class="content">
+                <div class="columns is-multiline is-centered is-marginless">
+                    <div class="column">
+                        <h4>خدمات مشاورین</h4>
+                        <ul>
+                            <li><a href="#">پنل ویژه مشاورین</a></li>
+                            <li><a href="#">آژانس املاک</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>خدمات مشاورین</h4>
+                        <ul>
+                            <li><a href="#">پنل ویژه مشاورین</a></li>
+                            <li><a href="#">آژانس املاک</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>خدمات مشاورین</h4>
+                        <ul>
+                            <li><a href="#">پنل ویژه مشاورین</a></li>
+                            <li><a href="#">آژانس املاک</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h4>خدمات مشاورین</h4>
+                        <ul>
+                            <li><a href="#">پنل ویژه مشاورین</a></li>
+                            <li><a href="#">آژانس املاک</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="columns is-marginless is-multiline is-centered">
+                    <div class="column">
+                        <ul class="social-list">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <p>Copy Right &copy; 2019</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <script defer type="text/javascript" src="./js/zepto.min.js"></script>
+    <script defer type="text/javascript" src="./js/happy.js"></script>
+    <script defer type="text/javascript" src="./js/wordifyfa.js"></script>
+    <script defer type="text/javascript" src="./js/inputmask.min.js"></script>
+    <script defer type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>

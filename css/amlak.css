@@ -1,0 +1,183 @@
+/* Global */
+@font-face {
+    font-family: 'IranSans';
+    src: url(../fonts/IRANSansWeb.woff);
+  }
+  html,body {
+    background: #F2F6FA;
+  }
+  footer.footer{
+    background-color:hsl(0, 0%, 21%);
+    color: hsl(0, 0%, 98%)
+  }
+  footer .column h4{
+    color: hsl(0, 0%, 96%);
+  }
+  footer .column ul{
+    margin-right: 0;
+    list-style:none;
+  }
+  footer .column ul a{
+    color: hsl(0, 0%, 71%)
+  }
+  footer .column ul a:hover{
+    color: hsl(0, 0%, 96%);
+  }
+  footer hr{
+    background-color: hsl(0, 0%, 48%);
+  }
+  .content .social-list{
+    list-style:none;
+    margin: 0;
+  }
+  .content .social-list li{
+    display: inline-block;
+  }
+/*menu */
+
+  .topNav {
+    border-top: 5px solid #3498DB;
+  }
+  .topNav .container {
+    border-bottom: 1px solid #E6EAEE;
+  }
+  .container .columns {
+    margin: 3rem 0;
+  }
+  aside.menu {
+    padding-top: 3rem;
+  }
+  aside.menu .menu-list {
+    line-height: 1.5;
+  }
+  aside.menu .menu-label {
+    padding-left: 10px;
+    font-weight: 700;
+  }
+  .button.is-primary.is-alt {
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to bottom, #0072ff, #00c6ff);
+    background: linear-gradient(to bottom, #0072ff, #00c6ff);
+    font-weight: 700;
+    font-size: 14px;
+    height: 3rem;
+    line-height: 2.8;
+  }
+  .media-left img {
+    border-radius: 50%;
+  }
+  .media-content p {
+    font-size: 14px;
+    line-height: 2.3;
+    font-weight: 700;
+    color: #8F99A3;
+  }
+  article.post {
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E6EAEE;
+  }
+  article.post:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .menu-list li{
+    padding: 5px;
+  }
+
+  /* SVG Icons */
+
+  svg.svg-icon {
+    overflow: visible;
+    width: 1em;
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+  svg.svg-icon use {
+      color: currentColor;
+  }
+  /* End SVG Icons */
+
+  /* Helper */
+  .d-block{
+    display: block;
+  }
+  .d-none{
+    display: none;
+  }
+  .currency-decimal , .prefixed-mask{
+    direction: ltr;
+    text-align: left;
+  }
+  .w-100{
+    width: 100%;
+  }
+
+  /* AddHome */
+  .right-adv-type{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  /* According */
+  .accordion-toggle {
+    display: block;
+    padding-right: 1em;
+    margin-bottom:.5em;
+    color: #333;
+  }
+  .accordion-toggle{
+
+  }
+  
+  .accordion-content {
+    display: none;
+  }
+  
+  .accordion-content.active {
+    display: block;
+  }
+
+  .accordion-toggle::after{
+    border: 3px solid transparent;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: 0.625em;
+    margin-top: -1em;
+    pointer-events: none;
+    position: relative;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    width: 0.625em;
+    border-color: #333;
+    left: 1.125em;
+    z-index: 4;
+  }
+  /* End According */
+.boxed-check-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1em;
+}
+  .boxed-check-item{
+    padding: 0.4em 2em;
+  }
+
+.d-flex{
+  display: flex;
+}
+.h-100{
+  height: 100%;
+}
